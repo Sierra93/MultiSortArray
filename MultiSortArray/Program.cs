@@ -9,7 +9,7 @@ namespace MultiSortArray {
             List<int> nechetListArr = new List<int>();
             // Для рандома
             Random r = new Random();
-            Console.WriteLine("Исхоный одномерный массив");
+            Console.WriteLine("Исходный одномерный массив");
             for (int i = 0; i < aArr.Length; i++) {
                 // Заполняет рандомом
                 aArr[i] = r.Next(1, 50);
